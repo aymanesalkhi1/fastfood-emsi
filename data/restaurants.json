@@ -1,0 +1,200 @@
+{"restaurant_id": "R-001", "name": "Couscous Lalla Mina - Beni Makada", "city": "Tanger", "category": "marocain", "latitude": 35.743, "longitude": -5.8266}
+{"restaurant_id": "R-002", "name": "Dakhla Burger - Hay Hassani", "city": "Casablanca", "category": "burger", "latitude": 33.5543, "longitude": -7.6695}
+{"restaurant_id": "R-003", "name": "Venezia Pizza - Médina", "city": "Rabat", "category": "pizza", "latitude": 34.0236, "longitude": -6.8426}
+{"restaurant_id": "R-004", "name": "Pizzeria Napoli - Daoudiate", "city": "Marrakech", "category": "pizza", "latitude": 31.6591, "longitude": -8.0042}
+{"restaurant_id": "R-005", "name": "Big Burger - Océan", "city": "Rabat", "category": "burger", "latitude": 34.0198, "longitude": -6.8491}
+{"restaurant_id": "R-006", "name": "Burger Bacon & Co - Massira", "city": "Marrakech", "category": "burger", "latitude": 31.6104, "longitude": -8.06}
+{"restaurant_id": "R-007", "name": "Sandwicherie Chorouk - Iberia", "city": "Tanger", "category": "sandwich", "latitude": 35.775, "longitude": -5.8158}
+{"restaurant_id": "R-008", "name": "Smash Street - Bourgogne", "city": "Casablanca", "category": "burger", "latitude": 33.5957, "longitude": -7.631}
+{"restaurant_id": "R-009", "name": "Tajine Essaouira - Guéliz", "city": "Marrakech", "category": "marocain", "latitude": 31.638, "longitude": -8.0104}
+{"restaurant_id": "R-010", "name": "Smash Grill - Aïn Sebaâ", "city": "Casablanca", "category": "burger", "latitude": 33.6112, "longitude": -7.5336}
+{"restaurant_id": "R-011", "name": "Restaurant Lmima - Aïn Sebaâ", "city": "Casablanca", "category": "marocain", "latitude": 33.6078, "longitude": -7.5271}
+{"restaurant_id": "R-012", "name": "Pizza Napoli - Bourgogne", "city": "Casablanca", "category": "pizza", "latitude": 33.5927, "longitude": -7.63}
+{"restaurant_id": "R-013", "name": "Rôtisserie Golden - Guéliz", "city": "Marrakech", "category": "poulet", "latitude": 31.6416, "longitude": -8.0093}
+{"restaurant_id": "R-014", "name": "Panini Bocadillo - Hivernage", "city": "Marrakech", "category": "sandwich", "latitude": 31.6257, "longitude": -8.0164}
+{"restaurant_id": "R-015", "name": "Sushi Kyoto - Hivernage", "city": "Marrakech", "category": "sushi", "latitude": 31.6197, "longitude": -8.016}
+{"restaurant_id": "R-016", "name": "Rôtisserie Golden - Centre-ville", "city": "Tanger", "category": "poulet", "latitude": 35.7817, "longitude": -5.8078}
+{"restaurant_id": "R-017", "name": "Sandwicherie Bocadillo - Gauthier", "city": "Casablanca", "category": "sandwich", "latitude": 33.5967, "longitude": -7.6264}
+{"restaurant_id": "R-018", "name": "Tajine Fassia - Hay Riad", "city": "Rabat", "category": "marocain", "latitude": 33.9609, "longitude": -6.8753}
+{"restaurant_id": "R-019", "name": "Panini Chorouk - Médina", "city": "Marrakech", "category": "sandwich", "latitude": 31.6276, "longitude": -7.9822}
+{"restaurant_id": "R-020", "name": "Pizzeria Toscana - Hivernage", "city": "Marrakech", "category": "pizza", "latitude": 31.6183, "longitude": -8.0131}
+{"restaurant_id": "R-021", "name": "Milano Pizza - Océan", "city": "Rabat", "category": "pizza", "latitude": 34.0271, "longitude": -6.8512}
+{"restaurant_id": "R-022", "name": "Couscous Zitouna - Hay Riad", "city": "Rabat", "category": "marocain", "latitude": 33.9668, "longitude": -6.8748}
+{"restaurant_id": "R-023", "name": "Panini Bocadillo - Guéliz", "city": "Marrakech", "category": "sandwich", "latitude": 31.6378, "longitude": -8.0076}
+{"restaurant_id": "R-024", "name": "Grill Burger - Oasis", "city": "Casablanca", "category": "burger", "latitude": 33.5577, "longitude": -7.6286}
+{"restaurant_id": "R-025", "name": "Tacos Atlas - Souissi", "city": "Rabat", "category": "tacos", "latitude": 33.9861, "longitude": -6.8284}
+{"restaurant_id": "R-026", "name": "Smash Bacon & Co - Souissi", "city": "Rabat", "category": "burger", "latitude": 33.9869, "longitude": -6.8314}
+{"restaurant_id": "R-027", "name": "Sandwicherie Chorouk - Centre-ville", "city": "Casablanca", "category": "sandwich", "latitude": 33.5957, "longitude": -7.6213}
+{"restaurant_id": "R-028", "name": "Snack Rapido - Maârif", "city": "Casablanca", "category": "sandwich", "latitude": 33.589, "longitude": -7.6318}
+{"restaurant_id": "R-029", "name": "Poulet Doré - Malabata", "city": "Tanger", "category": "poulet", "latitude": 35.7753, "longitude": -5.7856}
+{"restaurant_id": "R-030", "name": "Salade Poke - Massira", "city": "Marrakech", "category": "healthy", "latitude": 31.6099, "longitude": -8.0663}
+{"restaurant_id": "R-031", "name": "Royal Tacos - Guéliz", "city": "Marrakech", "category": "tacos", "latitude": 31.6338, "longitude": -8.0054}
+{"restaurant_id": "R-032", "name": "House Burger - Océan", "city": "Rabat", "category": "burger", "latitude": 34.0253, "longitude": -6.8481}
+{"restaurant_id": "R-033", "name": "Tajine Bab Doukkala - Sidi Maârouf", "city": "Casablanca", "category": "marocain", "latitude": 33.5368, "longitude": -7.6506}
+{"restaurant_id": "R-034", "name": "Couscous Al Bahia - Targa", "city": "Marrakech", "category": "marocain", "latitude": 31.6486, "longitude": -8.0435}
+{"restaurant_id": "R-035", "name": "Wok Lotus - Massira", "city": "Marrakech", "category": "asiatique", "latitude": 31.6054, "longitude": -8.0613}
+{"restaurant_id": "R-036", "name": "Poulet Family - Agdal", "city": "Rabat", "category": "poulet", "latitude": 33.9949, "longitude": -6.8503}
+{"restaurant_id": "R-037", "name": "Dar Lalla Mina - Guéliz", "city": "Marrakech", "category": "marocain", "latitude": 31.6344, "longitude": -8.0157}
+{"restaurant_id": "R-038", "name": "Maki Zen - Gauthier", "city": "Casablanca", "category": "sushi", "latitude": 33.5906, "longitude": -7.63}
+{"restaurant_id": "R-039", "name": "Tajine Tafilalet - Centre-ville", "city": "Casablanca", "category": "marocain", "latitude": 33.5975, "longitude": -7.6121}
+{"restaurant_id": "R-040", "name": "Riad Mogador - Médina", "city": "Marrakech", "category": "marocain", "latitude": 31.6328, "longitude": -7.9878}
+{"restaurant_id": "R-041", "name": "Bacon & Co Burger - Targa", "city": "Marrakech", "category": "burger", "latitude": 31.6393, "longitude": -8.0522}
+{"restaurant_id": "R-042", "name": "Panini Essalam - Hassan", "city": "Rabat", "category": "sandwich", "latitude": 34.0196, "longitude": -6.8261}
+{"restaurant_id": "R-043", "name": "Grill Burger - Massira", "city": "Marrakech", "category": "burger", "latitude": 31.6142, "longitude": -8.0558}
+{"restaurant_id": "R-044", "name": "Couscous Lmima - Océan", "city": "Rabat", "category": "marocain", "latitude": 34.0232, "longitude": -6.8518}
+{"restaurant_id": "R-045", "name": "Couscous Dar Diaf - Hay Mohammadi", "city": "Casablanca", "category": "marocain", "latitude": 33.5836, "longitude": -7.5582}
+{"restaurant_id": "R-046", "name": "Restaurant Chez Hamid - Gauthier", "city": "Casablanca", "category": "marocain", "latitude": 33.5953, "longitude": -7.63}
+{"restaurant_id": "R-047", "name": "Tacos Lyon - Sidi Maârouf", "city": "Casablanca", "category": "tacos", "latitude": 33.5272, "longitude": -7.6386}
+{"restaurant_id": "R-048", "name": "Burger Big - Beni Makada", "city": "Tanger", "category": "burger", "latitude": 35.7492, "longitude": -5.8298}
+{"restaurant_id": "R-049", "name": "Smash Smoky - Malabata", "city": "Tanger", "category": "burger", "latitude": 35.7772, "longitude": -5.7794}
+{"restaurant_id": "R-050", "name": "Noodles Lotus - Aïn Diab", "city": "Casablanca", "category": "asiatique", "latitude": 33.5893, "longitude": -7.6864}
+{"restaurant_id": "R-051", "name": "Chicken Braisé - Hay Riad", "city": "Rabat", "category": "poulet", "latitude": 33.9615, "longitude": -6.8746}
+{"restaurant_id": "R-052", "name": "Riad Zitouna - Gauthier", "city": "Casablanca", "category": "marocain", "latitude": 33.5848, "longitude": -7.6292}
+{"restaurant_id": "R-053", "name": "Pizza Al Forno - Belvédère", "city": "Casablanca", "category": "pizza", "latitude": 33.6041, "longitude": -7.5918}
+{"restaurant_id": "R-054", "name": "Riad Tafilalet - Derb Sultan", "city": "Casablanca", "category": "marocain", "latitude": 33.581, "longitude": -7.602}
+{"restaurant_id": "R-055", "name": "Avenue Tacos - Aïn Diab", "city": "Casablanca", "category": "tacos", "latitude": 33.5851, "longitude": -7.6849}
+{"restaurant_id": "R-056", "name": "Gaufres Chebakia - Hay Hassani", "city": "Casablanca", "category": "patisserie", "latitude": 33.5666, "longitude": -7.6678}
+{"restaurant_id": "R-057", "name": "Osaka Sushi - Agdal", "city": "Rabat", "category": "sushi", "latitude": 33.9931, "longitude": -6.8492}
+{"restaurant_id": "R-058", "name": "Lotus Asian Food - Centre-ville", "city": "Tanger", "category": "asiatique", "latitude": 35.7751, "longitude": -5.8149}
+{"restaurant_id": "R-059", "name": "Maki Yuki - Iberia", "city": "Tanger", "category": "sushi", "latitude": 35.7696, "longitude": -5.815}
+{"restaurant_id": "R-060", "name": "Smash Corner - Hay Hassani", "city": "Casablanca", "category": "burger", "latitude": 33.5553, "longitude": -7.6596}
+{"restaurant_id": "R-061", "name": "Casa Tacos - Marshan", "city": "Tanger", "category": "tacos", "latitude": 35.7841, "longitude": -5.8261}
+{"restaurant_id": "R-062", "name": "Saigon Asian Food - Agdal", "city": "Rabat", "category": "asiatique", "latitude": 34.0002, "longitude": -6.8446}
+{"restaurant_id": "R-063", "name": "Pizza Capri - Aïn Diab", "city": "Casablanca", "category": "pizza", "latitude": 33.5881, "longitude": -7.6852}
+{"restaurant_id": "R-064", "name": "Mamma Mia Pizza - Beni Makada", "city": "Tanger", "category": "pizza", "latitude": 35.7451, "longitude": -5.8254}
+{"restaurant_id": "R-065", "name": "Tacos Gratiné - Souissi", "city": "Rabat", "category": "tacos", "latitude": 33.9838, "longitude": -6.8297}
+{"restaurant_id": "R-066", "name": "Restaurant Dar Diaf - Océan", "city": "Rabat", "category": "marocain", "latitude": 34.0295, "longitude": -6.8453}
+{"restaurant_id": "R-067", "name": "Smash Grill - Médina", "city": "Rabat", "category": "burger", "latitude": 34.0237, "longitude": -6.8335}
+{"restaurant_id": "R-068", "name": "Tacos Factory - Californie", "city": "Casablanca", "category": "tacos", "latitude": 33.5481, "longitude": -7.6231}
+{"restaurant_id": "R-069", "name": "Green Detox - Mesnana", "city": "Tanger", "category": "healthy", "latitude": 35.7617, "longitude": -5.8581}
+{"restaurant_id": "R-070", "name": "Casa Tacos - Bourgogne", "city": "Casablanca", "category": "tacos", "latitude": 33.5993, "longitude": -7.6415}
+{"restaurant_id": "R-071", "name": "Express Tacos - Gauthier", "city": "Casablanca", "category": "tacos", "latitude": 33.5968, "longitude": -7.6241}
+{"restaurant_id": "R-072", "name": "Riad Tafilalet - Bourgogne", "city": "Casablanca", "category": "marocain", "latitude": 33.6014, "longitude": -7.6294}
+{"restaurant_id": "R-073", "name": "Pizza Toscana - Gauthier", "city": "Casablanca", "category": "pizza", "latitude": 33.5931, "longitude": -7.6244}
+{"restaurant_id": "R-074", "name": "Pizza Sicilia - Guéliz", "city": "Marrakech", "category": "pizza", "latitude": 31.6408, "longitude": -8.0098}
+{"restaurant_id": "R-075", "name": "Dakhla Burger - Iberia", "city": "Tanger", "category": "burger", "latitude": 35.7677, "longitude": -5.8195}
+{"restaurant_id": "R-076", "name": "Poulet Al Wafa - Akkari", "city": "Rabat", "category": "poulet", "latitude": 34.0147, "longitude": -6.8618}
+{"restaurant_id": "R-077", "name": "Tacos Avenue - Aïn Sebaâ", "city": "Casablanca", "category": "tacos", "latitude": 33.6087, "longitude": -7.5349}
+{"restaurant_id": "R-078", "name": "Pizzeria Bella - Hivernage", "city": "Marrakech", "category": "pizza", "latitude": 31.6175, "longitude": -8.0207}
+{"restaurant_id": "R-079", "name": "Tacos Street - Mesnana", "city": "Tanger", "category": "tacos", "latitude": 35.7513, "longitude": -5.8677}
+{"restaurant_id": "R-080", "name": "Pizza Toscana - Maârif", "city": "Casablanca", "category": "pizza", "latitude": 33.5847, "longitude": -7.6353}
+{"restaurant_id": "R-081", "name": "Sandwicherie Essalam - Racine", "city": "Casablanca", "category": "sandwich", "latitude": 33.5875, "longitude": -7.6424}
+{"restaurant_id": "R-082", "name": "Pizzeria Bella - Sidi Maârouf", "city": "Casablanca", "category": "pizza", "latitude": 33.5298, "longitude": -7.6394}
+{"restaurant_id": "R-083", "name": "Dakhla Burger - Derb Sultan", "city": "Casablanca", "category": "burger", "latitude": 33.5745, "longitude": -7.5933}
+{"restaurant_id": "R-084", "name": "Tajine Fassia - Yacoub El Mansour", "city": "Rabat", "category": "marocain", "latitude": 34.0008, "longitude": -6.8805}
+{"restaurant_id": "R-085", "name": "Chicken Express - Oasis", "city": "Casablanca", "category": "poulet", "latitude": 33.5584, "longitude": -7.6307}
+{"restaurant_id": "R-086", "name": "Sushi Tokyo - Médina", "city": "Rabat", "category": "sushi", "latitude": 34.0256, "longitude": -6.8422}
+{"restaurant_id": "R-087", "name": "Green Vita - Akkari", "city": "Rabat", "category": "healthy", "latitude": 34.0062, "longitude": -6.8564}
+{"restaurant_id": "R-088", "name": "Panini Le Coin - Belvédère", "city": "Casablanca", "category": "sandwich", "latitude": 33.6031, "longitude": -7.5881}
+{"restaurant_id": "R-089", "name": "Restaurant Al Andalous - Aïn Sebaâ", "city": "Casablanca", "category": "marocain", "latitude": 33.6086, "longitude": -7.5284}
+{"restaurant_id": "R-090", "name": "Street Tacos - Hivernage", "city": "Marrakech", "category": "tacos", "latitude": 31.6245, "longitude": -8.0137}
+{"restaurant_id": "R-091", "name": "Noodles Bangkok - Médina", "city": "Marrakech", "category": "asiatique", "latitude": 31.6299, "longitude": -7.9847}
+{"restaurant_id": "R-092", "name": "Dar Bab Doukkala - Iberia", "city": "Tanger", "category": "marocain", "latitude": 35.7714, "longitude": -5.8181}
+{"restaurant_id": "R-093", "name": "Rôtisserie Golden - Centre-ville", "city": "Casablanca", "category": "poulet", "latitude": 33.5897, "longitude": -7.6232}
+{"restaurant_id": "R-094", "name": "Tajine Al Bahia - Derb Sultan", "city": "Casablanca", "category": "marocain", "latitude": 33.5789, "longitude": -7.5985}
+{"restaurant_id": "R-095", "name": "Rôtisserie Al Wafa - Derb Sultan", "city": "Casablanca", "category": "poulet", "latitude": 33.5774, "longitude": -7.5981}
+{"restaurant_id": "R-096", "name": "Sandwicherie Le Coin - Médina", "city": "Rabat", "category": "sandwich", "latitude": 34.0306, "longitude": -6.8347}
+{"restaurant_id": "R-097", "name": "Tacos de Street - Iberia", "city": "Tanger", "category": "tacos", "latitude": 35.7644, "longitude": -5.8255}
+{"restaurant_id": "R-098", "name": "Restaurant Tafilalet - Akkari", "city": "Rabat", "category": "marocain", "latitude": 34.0155, "longitude": -6.855}
+{"restaurant_id": "R-099", "name": "King Tacos - Malabata", "city": "Tanger", "category": "tacos", "latitude": 35.7849, "longitude": -5.7776}
+{"restaurant_id": "R-100", "name": "Burger Atlas - Hivernage", "city": "Marrakech", "category": "burger", "latitude": 31.6196, "longitude": -8.0089}
+{"restaurant_id": "R-101", "name": "Al Forno Pizza - Maârif", "city": "Casablanca", "category": "pizza", "latitude": 33.5808, "longitude": -7.6382}
+{"restaurant_id": "R-102", "name": "Maki Osaka - Racine", "city": "Casablanca", "category": "sushi", "latitude": 33.5911, "longitude": -7.6466}
+{"restaurant_id": "R-103", "name": "Crêperie Miel d'Or - Aïn Sebaâ", "city": "Casablanca", "category": "patisserie", "latitude": 33.604, "longitude": -7.5287}
+{"restaurant_id": "R-104", "name": "Riad Essaouira - Souissi", "city": "Rabat", "category": "marocain", "latitude": 33.9793, "longitude": -6.8299}
+{"restaurant_id": "R-105", "name": "Capri Pizza - Oasis", "city": "Casablanca", "category": "pizza", "latitude": 33.5597, "longitude": -7.6232}
+{"restaurant_id": "R-106", "name": "Dar Bab Doukkala - Mesnana", "city": "Tanger", "category": "marocain", "latitude": 35.7562, "longitude": -5.8707}
+{"restaurant_id": "R-107", "name": "Pizza Da Marco - Massira", "city": "Marrakech", "category": "pizza", "latitude": 31.6036, "longitude": -8.0635}
+{"restaurant_id": "R-108", "name": "Gaufres Amandine - Targa", "city": "Marrakech", "category": "patisserie", "latitude": 31.6429, "longitude": -8.0448}
+{"restaurant_id": "R-109", "name": "Maki Osaka - Hay Mohammadi", "city": "Casablanca", "category": "sushi", "latitude": 33.5824, "longitude": -7.5633}
+{"restaurant_id": "R-110", "name": "Rôtisserie Crispy - Hivernage", "city": "Marrakech", "category": "poulet", "latitude": 31.6251, "longitude": -8.0181}
+{"restaurant_id": "R-111", "name": "Restaurant Chez Hamid - Guéliz", "city": "Marrakech", "category": "marocain", "latitude": 31.6381, "longitude": -8.0103}
+{"restaurant_id": "R-112", "name": "Noodles Dragon - Hassan", "city": "Rabat", "category": "asiatique", "latitude": 34.0262, "longitude": -6.8264}
+{"restaurant_id": "R-113", "name": "Chicken Crispy - Aïn Sebaâ", "city": "Casablanca", "category": "poulet", "latitude": 33.6125, "longitude": -7.5375}
+{"restaurant_id": "R-114", "name": "Noodles Thaï - Malabata", "city": "Tanger", "category": "asiatique", "latitude": 35.7835, "longitude": -5.7848}
+{"restaurant_id": "R-115", "name": "Riad Lmima - Hay Mohammadi", "city": "Casablanca", "category": "marocain", "latitude": 33.594, "longitude": -7.5532}
+{"restaurant_id": "R-116", "name": "Rôtisserie Braisé - Centre-ville", "city": "Tanger", "category": "poulet", "latitude": 35.774, "longitude": -5.8101}
+{"restaurant_id": "R-117", "name": "Noodles Thaï - Gauthier", "city": "Casablanca", "category": "asiatique", "latitude": 33.5882, "longitude": -7.6318}
+{"restaurant_id": "R-118", "name": "Sushi Yuki - Guéliz", "city": "Marrakech", "category": "sushi", "latitude": 31.6346, "longitude": -8.0169}
+{"restaurant_id": "R-119", "name": "Street Burger - Gauthier", "city": "Casablanca", "category": "burger", "latitude": 33.5928, "longitude": -7.6275}
+{"restaurant_id": "R-120", "name": "Tacos de King - Océan", "city": "Rabat", "category": "tacos", "latitude": 34.0218, "longitude": -6.8463}
+{"restaurant_id": "R-121", "name": "Gaufres Al Fassia - Iberia", "city": "Tanger", "category": "patisserie", "latitude": 35.7679, "longitude": -5.8141}
+{"restaurant_id": "R-122", "name": "Venezia Pizza - Beni Makada", "city": "Tanger", "category": "pizza", "latitude": 35.7401, "longitude": -5.8238}
+{"restaurant_id": "R-123", "name": "Milano Pizza - Derb Sultan", "city": "Casablanca", "category": "pizza", "latitude": 33.576, "longitude": -7.5991}
+{"restaurant_id": "R-124", "name": "Restaurant Tafilalet - Médina", "city": "Rabat", "category": "marocain", "latitude": 34.0329, "longitude": -6.8371}
+{"restaurant_id": "R-125", "name": "Panini Al Amal - Daoudiate", "city": "Marrakech", "category": "sandwich", "latitude": 31.6499, "longitude": -8.0006}
+{"restaurant_id": "R-126", "name": "Street Tacos - Racine", "city": "Casablanca", "category": "tacos", "latitude": 33.5945, "longitude": -7.6462}
+{"restaurant_id": "R-127", "name": "Dar Zitouna - Aïn Sebaâ", "city": "Casablanca", "category": "marocain", "latitude": 33.6107, "longitude": -7.53}
+{"restaurant_id": "R-128", "name": "Crêperie Chebakia - Iberia", "city": "Tanger", "category": "patisserie", "latitude": 35.7762, "longitude": -5.8228}
+{"restaurant_id": "R-129", "name": "Rôtisserie Al Wafa - Racine", "city": "Casablanca", "category": "poulet", "latitude": 33.5918, "longitude": -7.6425}
+{"restaurant_id": "R-130", "name": "Maki Sakura - Centre-ville", "city": "Tanger", "category": "sushi", "latitude": 35.7847, "longitude": -5.8154}
+{"restaurant_id": "R-131", "name": "Burger Big - Médina", "city": "Marrakech", "category": "burger", "latitude": 31.6294, "longitude": -7.985}
+{"restaurant_id": "R-132", "name": "Noodles Bangkok - Californie", "city": "Casablanca", "category": "asiatique", "latitude": 33.555, "longitude": -7.6267}
+{"restaurant_id": "R-133", "name": "Maki Yuki - Médina", "city": "Rabat", "category": "sushi", "latitude": 34.0265, "longitude": -6.8328}
+{"restaurant_id": "R-134", "name": "Gaufres Le Palais - Daoudiate", "city": "Marrakech", "category": "patisserie", "latitude": 31.6556, "longitude": -8.0099}
+{"restaurant_id": "R-135", "name": "Smash Smoky - Californie", "city": "Casablanca", "category": "burger", "latitude": 33.5446, "longitude": -7.6141}
+{"restaurant_id": "R-136", "name": "Tajine Chez Hamid - Sidi Maârouf", "city": "Casablanca", "category": "marocain", "latitude": 33.5313, "longitude": -7.6416}
+{"restaurant_id": "R-137", "name": "Crêperie Miel d'Or - Médina", "city": "Rabat", "category": "patisserie", "latitude": 34.0296, "longitude": -6.8402}
+{"restaurant_id": "R-138", "name": "Tacos de Express - Guéliz", "city": "Marrakech", "category": "tacos", "latitude": 31.63, "longitude": -8.0041}
+{"restaurant_id": "R-139", "name": "Chicken Crispy - M'hamid", "city": "Marrakech", "category": "poulet", "latitude": 31.5926, "longitude": -8.0325}
+{"restaurant_id": "R-140", "name": "Argan Bowl - Hivernage", "city": "Marrakech", "category": "healthy", "latitude": 31.6215, "longitude": -8.0208}
+{"restaurant_id": "R-141", "name": "Pizzeria Capri - Oasis", "city": "Casablanca", "category": "pizza", "latitude": 33.559, "longitude": -7.6274}
+{"restaurant_id": "R-142", "name": "Casa Tacos - Sidi Maârouf", "city": "Casablanca", "category": "tacos", "latitude": 33.528, "longitude": -7.6501}
+{"restaurant_id": "R-143", "name": "Tacos Gratiné - Targa", "city": "Marrakech", "category": "tacos", "latitude": 31.6501, "longitude": -8.0461}
+{"restaurant_id": "R-144", "name": "Yuki Sushi - Hay Mohammadi", "city": "Casablanca", "category": "sushi", "latitude": 33.586, "longitude": -7.5562}
+{"restaurant_id": "R-145", "name": "Atlas Tacos - Californie", "city": "Casablanca", "category": "tacos", "latitude": 33.5543, "longitude": -7.6237}
+{"restaurant_id": "R-146", "name": "Fresh Bowl - Racine", "city": "Casablanca", "category": "healthy", "latitude": 33.5881, "longitude": -7.6424}
+{"restaurant_id": "R-147", "name": "Royal Tacos - Akkari", "city": "Rabat", "category": "tacos", "latitude": 34.0184, "longitude": -6.8553}
+{"restaurant_id": "R-148", "name": "Salade Poke - Gauthier", "city": "Casablanca", "category": "healthy", "latitude": 33.5888, "longitude": -7.6221}
+{"restaurant_id": "R-149", "name": "Poulet Braisé - Akkari", "city": "Rabat", "category": "poulet", "latitude": 34.0119, "longitude": -6.8579}
+{"restaurant_id": "R-150", "name": "Roma Pizza - Aïn Sebaâ", "city": "Casablanca", "category": "pizza", "latitude": 33.604, "longitude": -7.5336}
+{"restaurant_id": "R-151", "name": "Rôtisserie Al Baraka - Hay Mohammadi", "city": "Casablanca", "category": "poulet", "latitude": 33.5901, "longitude": -7.554}
+{"restaurant_id": "R-152", "name": "Green Vita - Médina", "city": "Rabat", "category": "healthy", "latitude": 34.0282, "longitude": -6.838}
+{"restaurant_id": "R-153", "name": "Restaurant Chez Hamid - Maârif", "city": "Casablanca", "category": "marocain", "latitude": 33.5851, "longitude": -7.6369}
+{"restaurant_id": "R-154", "name": "Salade Argan - Maârif", "city": "Casablanca", "category": "healthy", "latitude": 33.5873, "longitude": -7.6363}
+{"restaurant_id": "R-155", "name": "Smash Corner - Belvédère", "city": "Casablanca", "category": "burger", "latitude": 33.6055, "longitude": -7.5921}
+{"restaurant_id": "R-156", "name": "Maki Shogun - Racine", "city": "Casablanca", "category": "sushi", "latitude": 33.5923, "longitude": -7.6414}
+{"restaurant_id": "R-157", "name": "Brothers Burger - Belvédère", "city": "Casablanca", "category": "burger", "latitude": 33.605, "longitude": -7.5947}
+{"restaurant_id": "R-158", "name": "Sicilia Pizza - Beni Makada", "city": "Tanger", "category": "pizza", "latitude": 35.7396, "longitude": -5.8352}
+{"restaurant_id": "R-159", "name": "Sandwicherie Rapido - Maârif", "city": "Casablanca", "category": "sandwich", "latitude": 33.5848, "longitude": -7.6295}
+{"restaurant_id": "R-160", "name": "Pizzeria Mamma Mia - Malabata", "city": "Tanger", "category": "pizza", "latitude": 35.7807, "longitude": -5.7841}
+{"restaurant_id": "R-161", "name": "Noodles Dragon - Maârif", "city": "Casablanca", "category": "asiatique", "latitude": 33.5915, "longitude": -7.6318}
+{"restaurant_id": "R-162", "name": "Tacos de Factory - Massira", "city": "Marrakech", "category": "tacos", "latitude": 31.6144, "longitude": -8.0628}
+{"restaurant_id": "R-163", "name": "Tajine Zitouna - Massira", "city": "Marrakech", "category": "marocain", "latitude": 31.6166, "longitude": -8.0565}
+{"restaurant_id": "R-164", "name": "Panini Nour - Maârif", "city": "Casablanca", "category": "sandwich", "latitude": 33.5868, "longitude": -7.6356}
+{"restaurant_id": "R-165", "name": "Sandwicherie Al Amal - Oasis", "city": "Casablanca", "category": "sandwich", "latitude": 33.5548, "longitude": -7.6328}
+{"restaurant_id": "R-166", "name": "Maki Osaka - Targa", "city": "Marrakech", "category": "sushi", "latitude": 31.6404, "longitude": -8.0547}
+{"restaurant_id": "R-167", "name": "Pizza Napoli - Agdal", "city": "Rabat", "category": "pizza", "latitude": 34.0032, "longitude": -6.848}
+{"restaurant_id": "R-168", "name": "Sandwicherie La Gare - Iberia", "city": "Tanger", "category": "sandwich", "latitude": 35.7691, "longitude": -5.8243}
+{"restaurant_id": "R-169", "name": "Tacos de Atlas - Akkari", "city": "Rabat", "category": "tacos", "latitude": 34.0108, "longitude": -6.8626}
+{"restaurant_id": "R-170", "name": "Wok Lotus - Oasis", "city": "Casablanca", "category": "asiatique", "latitude": 33.5601, "longitude": -7.6315}
+{"restaurant_id": "R-171", "name": "Sandwicherie Le Coin - Malabata", "city": "Tanger", "category": "sandwich", "latitude": 35.7819, "longitude": -5.7775}
+{"restaurant_id": "R-172", "name": "Pizza Venezia - Souissi", "city": "Rabat", "category": "pizza", "latitude": 33.98, "longitude": -6.8282}
+{"restaurant_id": "R-173", "name": "Pizza Roma - Océan", "city": "Rabat", "category": "pizza", "latitude": 34.0186, "longitude": -6.8542}
+{"restaurant_id": "R-174", "name": "Wasabi Sushi - Agdal", "city": "Rabat", "category": "sushi", "latitude": 33.9959, "longitude": -6.8499}
+{"restaurant_id": "R-175", "name": "Bamboo Asian Food - Belvédère", "city": "Casablanca", "category": "asiatique", "latitude": 33.6021, "longitude": -7.5951}
+{"restaurant_id": "R-176", "name": "Tacos Street - Hay Riad", "city": "Rabat", "category": "tacos", "latitude": 33.9623, "longitude": -6.8742}
+{"restaurant_id": "R-177", "name": "Tajine Lalla Mina - Beni Makada", "city": "Tanger", "category": "marocain", "latitude": 35.7412, "longitude": -5.8273}
+{"restaurant_id": "R-178", "name": "Chicken Crispy - Aïn Diab", "city": "Casablanca", "category": "poulet", "latitude": 33.5984, "longitude": -7.6747}
+{"restaurant_id": "R-179", "name": "Smoky Burger - Malabata", "city": "Tanger", "category": "burger", "latitude": 35.7772, "longitude": -5.7767}
+{"restaurant_id": "R-180", "name": "Snack La Gare - Hay Riad", "city": "Rabat", "category": "sandwich", "latitude": 33.9632, "longitude": -6.8752}
+{"restaurant_id": "R-181", "name": "Green Fresh - Marshan", "city": "Tanger", "category": "healthy", "latitude": 35.7928, "longitude": -5.8187}
+{"restaurant_id": "R-182", "name": "Shogun Sushi - Aïn Diab", "city": "Casablanca", "category": "sushi", "latitude": 33.5915, "longitude": -7.6763}
+{"restaurant_id": "R-183", "name": "Couscous Essaouira - Bourgogne", "city": "Casablanca", "category": "marocain", "latitude": 33.6013, "longitude": -7.6398}
+{"restaurant_id": "R-184", "name": "Green Fresh - Bourgogne", "city": "Casablanca", "category": "healthy", "latitude": 33.5974, "longitude": -7.6347}
+{"restaurant_id": "R-185", "name": "Noodles Dragon - Souissi", "city": "Rabat", "category": "asiatique", "latitude": 33.9883, "longitude": -6.8327}
+{"restaurant_id": "R-186", "name": "Poulet Golden - Guéliz", "city": "Marrakech", "category": "poulet", "latitude": 31.6393, "longitude": -8.005}
+{"restaurant_id": "R-187", "name": "Poulet Golden - Aïn Diab", "city": "Casablanca", "category": "poulet", "latitude": 33.5927, "longitude": -7.6865}
+{"restaurant_id": "R-188", "name": "Smash Big - Agdal", "city": "Rabat", "category": "burger", "latitude": 33.9969, "longitude": -6.8528}
+{"restaurant_id": "R-189", "name": "Gaufres Amandine - Yacoub El Mansour", "city": "Rabat", "category": "patisserie", "latitude": 34.011, "longitude": -6.8733}
+{"restaurant_id": "R-190", "name": "Pâtisserie Douceurs - Aïn Diab", "city": "Casablanca", "category": "patisserie", "latitude": 33.595, "longitude": -7.6792}
+{"restaurant_id": "R-191", "name": "Crêperie Al Fassia - Oasis", "city": "Casablanca", "category": "patisserie", "latitude": 33.56, "longitude": -7.6318}
+{"restaurant_id": "R-192", "name": "Riad Dar Diaf - Océan", "city": "Rabat", "category": "marocain", "latitude": 34.0206, "longitude": -6.8534}
+{"restaurant_id": "R-193", "name": "Kyoto Sushi - Sidi Maârouf", "city": "Casablanca", "category": "sushi", "latitude": 33.5368, "longitude": -7.645}
+{"restaurant_id": "R-194", "name": "King Tacos - Gauthier", "city": "Casablanca", "category": "tacos", "latitude": 33.5872, "longitude": -7.6285}
+{"restaurant_id": "R-195", "name": "Tacos Avenue - Aïn Diab", "city": "Casablanca", "category": "tacos", "latitude": 33.5867, "longitude": -7.6774}
+{"restaurant_id": "R-196", "name": "Wok Pékin - Médina", "city": "Marrakech", "category": "asiatique", "latitude": 31.6325, "longitude": -7.9936}
+{"restaurant_id": "R-197", "name": "Snack Bocadillo - Hay Riad", "city": "Rabat", "category": "sandwich", "latitude": 33.9634, "longitude": -6.8678}
+{"restaurant_id": "R-198", "name": "Pizza Capri - Hassan", "city": "Rabat", "category": "pizza", "latitude": 34.0255, "longitude": -6.8348}
+{"restaurant_id": "R-199", "name": "Roma Pizza - Hivernage", "city": "Marrakech", "category": "pizza", "latitude": 31.6203, "longitude": -8.0154}
+{"restaurant_id": "R-200", "name": "Mamma Mia Pizza - Hay Mohammadi", "city": "Casablanca", "category": "pizza", "latitude": 33.5815, "longitude": -7.5613}

@@ -1,0 +1,8 @@
+{
+  "avant": 29,
+  "apres_redemarrage": 29,
+  "apres_nouveaux_evenements": 57,
+  "distinct_final": 57,
+  "sans_perte": true,
+  "sans_doublon": true
+}

@@ -1,0 +1,9 @@
+{
+  "order_id": "ORD-0015079",
+  "status": "CREATED",
+  "city": "Tanger",
+  "event_time": "2026-11-15T14:08:54Z",
+  "ingest_time": "2026-11-15T14:24:13Z",
+  "delay_seconds": 919,
+  "watermark": "10 minutes"
+}

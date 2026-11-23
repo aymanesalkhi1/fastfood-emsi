@@ -1,0 +1,769 @@
+{
+  "partie2": {
+    "revenue_by_city": [
+      {
+        "city": "Casablanca",
+        "revenue_mad": 1024399.5
+      },
+      {
+        "city": "Marrakech",
+        "revenue_mad": 416270.0
+      },
+      {
+        "city": "Rabat",
+        "revenue_mad": 552112.0
+      },
+      {
+        "city": "Tanger",
+        "revenue_mad": 346102.5
+      }
+    ],
+    "baskets": [
+      {
+        "city": "Casablanca",
+        "revenue_mad": 1024399.5,
+        "orders": 6917,
+        "avg_basket_mad": 148.1
+      },
+      {
+        "city": "Marrakech",
+        "revenue_mad": 416270.0,
+        "orders": 2863,
+        "avg_basket_mad": 145.4
+      },
+      {
+        "city": "Rabat",
+        "revenue_mad": 552112.0,
+        "orders": 3602,
+        "avg_basket_mad": 153.28
+      },
+      {
+        "city": "Tanger",
+        "revenue_mad": 346102.5,
+        "orders": 2290,
+        "avg_basket_mad": 151.14
+      }
+    ],
+    "top5": [
+      {
+        "restaurant_id": "R-157",
+        "orders": 588
+      },
+      {
+        "restaurant_id": "R-188",
+        "orders": 362
+      },
+      {
+        "restaurant_id": "R-013",
+        "orders": 291
+      },
+      {
+        "restaurant_id": "R-147",
+        "orders": 249
+      },
+      {
+        "restaurant_id": "R-012",
+        "orders": 248
+      }
+    ],
+    "seconds": {
+      "revenue_cold": 0.342,
+      "revenue_warm": 0.167,
+      "basket": 0.169
+    },
+    "delivered_rows": 15672,
+    "lineage_head": "(2) PythonRDD[9] at RDD at PythonRDD.scala:53 []\n |  MapPartitionsRDD[8] at mapPartitions at PythonRDD.scala:160 []\n |  ShuffledRDD[7] at partitionBy at NativeMethodAccessorImpl.java:0 []\n +-(2) PairwiseRDD[6] at reduceByKey at /agent/repos/tmp-4a4d03e9a0b25c20/src/fastfood/partie2.py:84 []\n    |  PythonRDD[5] at reduceByKey at /agent/repos/tmp-4a4d03e9a0b25c20/src/fastfood/partie2.py:84 []\n    |  PythonRDD[4] at RDD at PythonRDD.scala:53 []\n    |  PythonRDD[2] at RDD at PythonRDD.scala:53 []\n    |      CachedPartitions: 2; MemorySize: 2.2 MiB; DiskSize: 0.0 B\n    |  /agent/repos/tmp-4a4d03e9a0b25c20/data/orders_history.jsonl MapPartitionsRDD[1] at textFile at NativeMethodAccessorImpl.java:0 []\n    |  /agent/repos/tmp-4a4d03e9a0b25c20/data/orders_history.jsonl HadoopRDD[0] at textFile at NativeMethodAccessorImpl.java:0 []",
+    "shuffle": "filter et map sont étroites : pas de déplacement de données entre partitions. reduceByKey et aggregateByKey sont larges : Spark repartitionne par ville (HashPartitioner), écrit un shuffle, puis ouvre un nouveau stage pour la réduction. Le lineage (toDebugString) décrit ce plan. Si une partition est perdue, Spark rejoue uniquement les transformations mères, il ne reprend pas un fichier intermédiaire."
+  },
+  "partie3": {
+    "revenue_dataframe": [
+      {
+        "city": "Casablanca",
+        "revenue_mad": 1024399.5,
+        "orders": 6917
+      },
+      {
+        "city": "Marrakech",
+        "revenue_mad": 416270.0,
+        "orders": 2863
+      },
+      {
+        "city": "Rabat",
+        "revenue_mad": 552112.0,
+        "orders": 3602
+      },
+      {
+        "city": "Tanger",
+        "revenue_mad": 346102.5,
+        "orders": 2290
+      }
+    ],
+    "revenue_sql": [
+      {
+        "city": "Casablanca",
+        "revenue_mad": 1024399.5,
+        "orders": 6917
+      },
+      {
+        "city": "Marrakech",
+        "revenue_mad": 416270.0,
+        "orders": 2863
+      },
+      {
+        "city": "Rabat",
+        "revenue_mad": 552112.0,
+        "orders": 3602
+      },
+      {
+        "city": "Tanger",
+        "revenue_mad": 346102.5,
+        "orders": 2290
+      }
+    ],
+    "seconds": {
+      "dataframe_cold": 0.585,
+      "dataframe_warm": 0.192,
+      "when_otherwise_s": 0.089,
+      "python_udf_s": 0.176
+    },
+    "unmatched_restaurants": 124,
+    "delivered_gross": {
+      "revenue_mad": 2338884.0,
+      "orders": 15672
+    },
+    "delivered_deduped": {
+      "revenue_mad": 2290108.0,
+      "orders": 15354
+    },
+    "dedup_gap_mad": 48776.0,
+    "category_top": [
+      {
+        "city": "Casablanca",
+        "category": "marocain",
+        "revenue_mad": 192297.5,
+        "orders": 1266
+      },
+      {
+        "city": "Casablanca",
+        "category": "burger",
+        "revenue_mad": 189621.0,
+        "orders": 1273
+      },
+      {
+        "city": "Casablanca",
+        "category": "pizza",
+        "revenue_mad": 159425.5,
+        "orders": 975
+      },
+      {
+        "city": "Casablanca",
+        "category": "sushi",
+        "revenue_mad": 145973.5,
+        "orders": 662
+      },
+      {
+        "city": "Rabat",
+        "category": "burger",
+        "revenue_mad": 112689.5,
+        "orders": 699
+      },
+      {
+        "city": "Tanger",
+        "category": "pizza",
+        "revenue_mad": 98857.5,
+        "orders": 583
+      },
+      {
+        "city": "Rabat",
+        "category": "pizza",
+        "revenue_mad": 93258.0,
+        "orders": 570
+      },
+      {
+        "city": "Casablanca",
+        "category": "tacos",
+        "revenue_mad": 90317.0,
+        "orders": 711
+      },
+      {
+        "city": "Rabat",
+        "category": "marocain",
+        "revenue_mad": 83524.0,
+        "orders": 542
+      },
+      {
+        "city": "Marrakech",
+        "category": "poulet",
+        "revenue_mad": 68122.5,
+        "orders": 497
+      },
+      {
+        "city": "Rabat",
+        "category": "asiatique",
+        "revenue_mad": 67068.5,
+        "orders": 354
+      },
+      {
+        "city": "Marrakech",
+        "category": "pizza",
+        "revenue_mad": 65499.0,
+        "orders": 396
+      },
+      {
+        "city": "Rabat",
+        "category": "tacos",
+        "revenue_mad": 64534.5,
+        "orders": 497
+      },
+      {
+        "city": "Casablanca",
+        "category": "poulet",
+        "revenue_mad": 64500.0,
+        "orders": 457
+      },
+      {
+        "city": "Casablanca",
+        "category": "asiatique",
+        "revenue_mad": 59906.0,
+        "orders": 347
+      },
+      {
+        "city": "Marrakech",
+        "category": "tacos",
+        "revenue_mad": 56599.5,
+        "orders": 496
+      },
+      {
+        "city": "Marrakech",
+        "category": "sushi",
+        "revenue_mad": 56012.0,
+        "orders": 234
+      },
+      {
+        "city": "Casablanca",
+        "category": "sandwich",
+        "revenue_mad": 51923.0,
+        "orders": 594
+      },
+      {
+        "city": "Tanger",
+        "category": "poulet",
+        "revenue_mad": 49612.0,
+        "orders": 351
+      },
+      {
+        "city": "Marrakech",
+        "category": "marocain",
+        "revenue_mad": 47717.0,
+        "orders": 312
+      },
+      {
+        "city": "Casablanca",
+        "category": "healthy",
+        "revenue_mad": 41292.5,
+        "orders": 257
+      },
+      {
+        "city": "Tanger",
+        "category": "sushi",
+        "revenue_mad": 39078.0,
+        "orders": 168
+      },
+      {
+        "city": "Tanger",
+        "category": "tacos",
+        "revenue_mad": 38139.0,
+        "orders": 296
+      },
+      {
+        "city": "Marrakech",
+        "category": "burger",
+        "revenue_mad": 36502.5,
+        "orders": 238
+      },
+      {
+        "city": "Rabat",
+        "category": "poulet",
+        "revenue_mad": 34599.0,
+        "orders": 267
+      },
+      {
+        "city": "Rabat",
+        "category": "sushi",
+        "revenue_mad": 33585.0,
+        "orders": 142
+      },
+      {
+        "city": "Rabat",
+        "category": "healthy",
+        "revenue_mad": 31231.5,
+        "orders": 176
+      },
+      {
+        "city": "Marrakech",
+        "category": "healthy",
+        "revenue_mad": 29650.0,
+        "orders": 178
+      },
+      {
+        "city": "Tanger",
+        "category": "healthy",
+        "revenue_mad": 28827.5,
+        "orders": 183
+      },
+      {
+        "city": "Tanger",
+        "category": "marocain",
+        "revenue_mad": 28649.0,
+        "orders": 199
+      },
+      {
+        "city": "Casablanca",
+        "category": "patisserie",
+        "revenue_mad": 26992.5,
+        "orders": 360
+      },
+      {
+        "city": "Tanger",
+        "category": "burger",
+        "revenue_mad": 26682.5,
+        "orders": 168
+      },
+      {
+        "city": "Rabat",
+        "category": "sandwich",
+        "revenue_mad": 25118.0,
+        "orders": 284
+      },
+      {
+        "city": "Marrakech",
+        "category": "sandwich",
+        "revenue_mad": 23945.0,
+        "orders": 265
+      },
+      {
+        "city": "Marrakech",
+        "category": "asiatique",
+        "revenue_mad": 21405.5,
+        "orders": 115
+      },
+      {
+        "city": "Tanger",
+        "category": "asiatique",
+        "revenue_mad": 17271.5,
+        "orders": 99
+      },
+      {
+        "city": "Tanger",
+        "category": "patisserie",
+        "revenue_mad": 10621.0,
+        "orders": 147
+      },
+      {
+        "city": "Marrakech",
+        "category": "patisserie",
+        "revenue_mad": 9366.0,
+        "orders": 121
+      },
+      {
+        "city": "Tanger",
+        "category": "sandwich",
+        "revenue_mad": 7535.0,
+        "orders": 90
+      },
+      {
+        "city": "Rabat",
+        "category": "patisserie",
+        "revenue_mad": 4511.0,
+        "orders": 62
+      },
+      {
+        "city": "Casablanca",
+        "category": null,
+        "revenue_mad": 2151.0,
+        "orders": 15
+      },
+      {
+        "city": "Rabat",
+        "category": null,
+        "revenue_mad": 1993.0,
+        "orders": 9
+      },
+      {
+        "city": "Marrakech",
+        "category": null,
+        "revenue_mad": 1451.0,
+        "orders": 11
+      },
+      {
+        "city": "Tanger",
+        "category": null,
+        "revenue_mad": 829.5,
+        "orders": 6
+      }
+    ],
+    "parquet": "file:///tmp/fastfood-lake/silver/orders_history",
+    "parquet_rows": 48962,
+    "partitions": [
+      "city=Casablanca",
+      "city=Marrakech",
+      "city=Rabat",
+      "city=Tanger"
+    ],
+    "plan_excerpt": [
+      "+- Aggregate [city#3, category#73], [city#3, category#73, round(sum(amount_mad#5), 2) AS revenue_mad#1825, count(1) AS orders#1827L]",
+      "         +- Join LeftOuter, (restaurant_id#1 = restaurant_id#70)",
+      "+- Aggregate [city#3, category#73], [city#3, category#73, round(sum(amount_mad#5), 2) AS revenue_mad#1825, count(1) AS orders#1827L]",
+      "         +- Join LeftOuter, (restaurant_id#1 = restaurant_id#70)",
+      "+- Aggregate [city#3, category#73], [city#3, category#73, round(sum(amount_mad#5), 2) AS revenue_mad#1825, count(1) AS orders#1827L]",
+      "      +- Join LeftOuter, (restaurant_id#1 = restaurant_id#70), rightHint=(strategy=broadcast)",
+      "AdaptiveSparkPlan isFinalPlan=false",
+      "   +- Exchange rangepartitioning(revenue_mad#1825 DESC NULLS LAST, 8), ENSURE_REQUIREMENTS, [plan_id=681]",
+      "      +- HashAggregate(keys=[city#3, category#73], functions=[sum(amount_mad#5), count(1)], output=[city#3, category#73, revenue_mad#1825, orders#1827L])",
+      "         +- Exchange hashpartitioning(city#3, category#73, 8), ENSURE_REQUIREMENTS, [plan_id=678]",
+      "            +- HashAggregate(keys=[city#3, category#73], functions=[partial_sum(amount_mad#5), partial_count(1)], output=[city#3, category#73, sum#2074, count#2075L])",
+      "                  +- BroadcastHashJoin [restaurant_id#1], [restaurant_id#70], LeftOuter, BuildRight, false",
+      "                     +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, false]),false), [plan_id=673]"
+    ],
+    "udf_note": "L'UDF Python sort du moteur : chaque ligne est sérialisée vers l'interpréteur, Catalyst ne peut ni réordonner ni éliminer le calcul, Tungsten ne le compile pas. when/otherwise est une expression native, visible dans le plan, et peut être combinée avec le reste de la requête."
+  },
+  "partie4": {
+    "vertices": 7173,
+    "edges": 13047,
+    "orphan_restaurants": 35,
+    "top_in_degree": [
+      {
+        "id": "R-157",
+        "name": "Brothers Burger - Belvédère",
+        "city": "Casablanca",
+        "category": "burger",
+        "inDegree": 483
+      },
+      {
+        "id": "R-188",
+        "name": "Smash Big - Agdal",
+        "city": "Rabat",
+        "category": "burger",
+        "inDegree": 279
+      },
+      {
+        "id": "R-013",
+        "name": "Rôtisserie Golden - Guéliz",
+        "city": "Marrakech",
+        "category": "poulet",
+        "inDegree": 231
+      },
+      {
+        "id": "R-147",
+        "name": "Royal Tacos - Akkari",
+        "city": "Rabat",
+        "category": "tacos",
+        "inDegree": 215
+      },
+      {
+        "id": "R-153",
+        "name": "Restaurant Chez Hamid - Maârif",
+        "city": "Casablanca",
+        "category": "marocain",
+        "inDegree": 211
+      },
+      {
+        "id": "R-012",
+        "name": "Pizza Napoli - Bourgogne",
+        "city": "Casablanca",
+        "category": "pizza",
+        "inDegree": 204
+      },
+      {
+        "id": "R-098",
+        "name": "Restaurant Tafilalet - Akkari",
+        "city": "Rabat",
+        "category": "marocain",
+        "inDegree": 195
+      },
+      {
+        "id": "R-158",
+        "name": "Sicilia Pizza - Beni Makada",
+        "city": "Tanger",
+        "category": "pizza",
+        "inDegree": 187
+      },
+      {
+        "id": "R-062",
+        "name": "Saigon Asian Food - Agdal",
+        "city": "Rabat",
+        "category": "asiatique",
+        "inDegree": 175
+      },
+      {
+        "id": "R-011",
+        "name": "Restaurant Lmima - Aïn Sebaâ",
+        "city": "Casablanca",
+        "category": "marocain",
+        "inDegree": 172
+      }
+    ],
+    "top_out_degree": [
+      {
+        "id": "C-03378",
+        "city": "Rabat",
+        "outDegree": 13
+      },
+      {
+        "id": "C-10879",
+        "city": "Casablanca",
+        "outDegree": 10
+      },
+      {
+        "id": "C-10221",
+        "city": "Casablanca",
+        "outDegree": 10
+      },
+      {
+        "id": "C-10318",
+        "city": "Casablanca",
+        "outDegree": 10
+      },
+      {
+        "id": "C-07025",
+        "city": "Marrakech",
+        "outDegree": 9
+      },
+      {
+        "id": "C-03771",
+        "city": "Casablanca",
+        "outDegree": 9
+      },
+      {
+        "id": "C-08697",
+        "city": "Casablanca",
+        "outDegree": 9
+      },
+      {
+        "id": "C-00114",
+        "city": "Rabat",
+        "outDegree": 9
+      },
+      {
+        "id": "C-09307",
+        "city": "Rabat",
+        "outDegree": 9
+      },
+      {
+        "id": "C-00870",
+        "city": "Rabat",
+        "outDegree": 9
+      }
+    ],
+    "top_pagerank": [
+      {
+        "id": "R-157",
+        "name": "Brothers Burger - Belvédère",
+        "city": "Casablanca",
+        "category": "burger",
+        "pagerank": 125.286445
+      },
+      {
+        "id": "R-188",
+        "name": "Smash Big - Agdal",
+        "city": "Rabat",
+        "category": "burger",
+        "pagerank": 72.600506
+      },
+      {
+        "id": "R-013",
+        "name": "Rôtisserie Golden - Guéliz",
+        "city": "Marrakech",
+        "category": "poulet",
+        "pagerank": 61.831851
+      },
+      {
+        "id": "R-153",
+        "name": "Restaurant Chez Hamid - Maârif",
+        "city": "Casablanca",
+        "category": "marocain",
+        "pagerank": 56.833283
+      },
+      {
+        "id": "R-147",
+        "name": "Royal Tacos - Akkari",
+        "city": "Rabat",
+        "category": "tacos",
+        "pagerank": 54.280935
+      },
+      {
+        "id": "R-158",
+        "name": "Sicilia Pizza - Beni Makada",
+        "city": "Tanger",
+        "category": "pizza",
+        "pagerank": 51.562044
+      },
+      {
+        "id": "R-012",
+        "name": "Pizza Napoli - Bourgogne",
+        "city": "Casablanca",
+        "category": "pizza",
+        "pagerank": 50.670177
+      },
+      {
+        "id": "R-098",
+        "name": "Restaurant Tafilalet - Akkari",
+        "city": "Rabat",
+        "category": "marocain",
+        "pagerank": 48.057853
+      },
+      {
+        "id": "R-062",
+        "name": "Saigon Asian Food - Agdal",
+        "city": "Rabat",
+        "category": "asiatique",
+        "pagerank": 45.89723
+      },
+      {
+        "id": "R-011",
+        "name": "Restaurant Lmima - Aïn Sebaâ",
+        "city": "Casablanca",
+        "category": "marocain",
+        "pagerank": 44.179978
+      }
+    ],
+    "components": 12,
+    "largest_component": 3178,
+    "component_sizes": [
+      {
+        "city": "Casablanca",
+        "vertices": 3178
+      },
+      {
+        "city": "Rabat",
+        "vertices": 1614
+      },
+      {
+        "city": "Marrakech",
+        "vertices": 1315
+      },
+      {
+        "city": "Tanger",
+        "vertices": 1049
+      },
+      {
+        "city": "Marrakech",
+        "vertices": 3
+      },
+      {
+        "city": "Casablanca",
+        "vertices": 2
+      },
+      {
+        "city": "Marrakech",
+        "vertices": 2
+      },
+      {
+        "city": "Marrakech",
+        "vertices": 2
+      },
+      {
+        "city": "Rabat",
+        "vertices": 2
+      },
+      {
+        "city": "Rabat",
+        "vertices": 2
+      },
+      {
+        "city": "Marrakech",
+        "vertices": 2
+      },
+      {
+        "city": "Rabat",
+        "vertices": 2
+      }
+    ],
+    "motif_sample": [
+      {
+        "client": "C-04252",
+        "restaurant_1": "King Tacos - Gauthier",
+        "restaurant_2": "Tacos Lyon - Sidi Maârouf",
+        "category": "tacos"
+      },
+      {
+        "client": "C-05765",
+        "restaurant_1": "King Tacos - Gauthier",
+        "restaurant_2": "Tacos Factory - Californie",
+        "category": "tacos"
+      },
+      {
+        "client": "C-09954",
+        "restaurant_1": "Venezia Pizza - Médina",
+        "restaurant_2": "Pizza Roma - Océan",
+        "category": "pizza"
+      },
+      {
+        "client": "C-04492",
+        "restaurant_1": "Noodles Dragon - Hassan",
+        "restaurant_2": "Saigon Asian Food - Agdal",
+        "category": "asiatique"
+      },
+      {
+        "client": "C-03319",
+        "restaurant_1": "Tacos de Atlas - Akkari",
+        "restaurant_2": "Royal Tacos - Akkari",
+        "category": "tacos"
+      }
+    ],
+    "recommendation_for": "C-03378",
+    "recommendations": [
+      {
+        "candidate": "R-067",
+        "candidate_name": "Smash Grill - Médina",
+        "category": "burger",
+        "city": "Rabat",
+        "support": 17
+      },
+      {
+        "candidate": "R-026",
+        "candidate_name": "Smash Bacon & Co - Souissi",
+        "category": "burger",
+        "city": "Rabat",
+        "support": 14
+      },
+      {
+        "candidate": "R-066",
+        "candidate_name": "Restaurant Dar Diaf - Océan",
+        "category": "marocain",
+        "city": "Rabat",
+        "support": 11
+      }
+    ],
+    "aggregate_mismatch": 0,
+    "revenue_by_messages": [
+      {
+        "id": "R-157",
+        "ca_messages": 85057.0
+      },
+      {
+        "id": "R-188",
+        "ca_messages": 55491.0
+      },
+      {
+        "id": "R-062",
+        "ca_messages": 39869.0
+      },
+      {
+        "id": "R-012",
+        "ca_messages": 39838.5
+      },
+      {
+        "id": "R-158",
+        "ca_messages": 39012.0
+      }
+    ],
+    "pregel": "PageRank et aggregateMessages suivent le modèle Pregel : à chaque superstep, un sommet envoie un message à ses voisins, les messages sont agrégés, puis le sommet met à jour son état. On s'arrête après un nombre d'itérations (ici 10) ou quand le changement passe sous un seuil. GraphX expose ça via l'API RDD (Scala, Graph[VD, ED]). GraphFrames expose les mêmes algos sur des DataFrames, donc Catalyst optimise les motifs et PySpark peut les appeler. C'est pour ça que la partie 4 est en GraphFrames."
+  },
+  "partie1": {
+    "version": "3.5.3",
+    "master": "local[*]",
+    "app_name": "fastfood-batch",
+    "default_parallelism": 4
+  }
+}

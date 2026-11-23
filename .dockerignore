@@ -1,0 +1,8 @@
+.git
+.venv
+.ivy2
+.pytest_cache
+**/__pycache__
+data/orders_history.jsonl
+outputs
+**/.ipynb_checkpoints

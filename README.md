@@ -63,3 +63,5 @@ Les identifiants MinIO et le jeton Jupyter sont ceux d'un TP. Ne pas exposer ce 
 4. GraphFrames : degrés, PageRank, composantes connexes, motifs, `aggregateMessages`.
 5. Kafka → console, bronze JSON, compteurs, watermark 10 minutes.
 6. Dédoublonnage, jointure stream-static, Parquet silver, fenêtres tumbling / sliding / session, Delta gold, reprise par checkpoint.
+
+Le rapport à rendre est `rapport/Rapport_FastFood_Project.pdf`.
